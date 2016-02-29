@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Responsive Layout Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900"
+    rel="stylesheet">
   </head>
   <body>
+    <nav id="navigation">
+        <ul class="nav-list">
+          <li class="name">Shea Nelson</li>
+          <li class="nav-item"><a href="index.html">HOME</a></li>
+          <li class="nav-item"><a href="portfolio.html">PORTFOLIO</a></li>
+          <li class="nav-item"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <header>
+      <div class="hero">
+        <img src="images/responsive-layout-profile.png"
+          alt="Initials for Shea Nelson" class="profile-image">
+        <div class="hero-text">
+          Hi! I'm a front-end developer who loves responsive design
+          and css. I recently finished a degree in front-end web development
+          at Treehouse and am excited to put all my skills to use!
+        </div>
+      </div>
+      <div class="down-arrow">
+        v
+      </div>
+    </header>
+    <main class="flex">
+      <section class="portfolio">
+        <div class="section-title">
+          PORTFOLIO
+        </div>
+        <div class="card">
+          <img class="project-image" src="images/portfolio-1.png"
+          alt="generic image of marketing page">
+          <div class="project-title">
+            Marketing Page
+          </div>
+          <div class="project-text">
+            This project shows the front page of a marketing website meant for
+            a specific business I'm interested in.
+          </div>
+        </div>
 
+        <div class="card">
+          <img class="project-image" src="images/portfolio-2.png"
+          alt="generic image of search page">
+          <div class="project-title">
+            Search Page
+          </div>
+          <div class="project-text">
+            This project searches through a specific database to find information
+            that the user is trying to look up.
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-image" src="images/portfolio-3.png"
+          alt="generic image of travel app">
+          <div class="project-title">
+            Travel App
+          </div>
+          <div class="project-text">
+            This project compares travel times based on different transportation
+            methods and tells you the best one.
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-image" src="images/portfolio-6.png"
+          alt="generic image of map app">
+          <div class="project-title">
+            Map of Favorite Spots
+          </div>
+          <div class="project-text">
+            This project uses mapping apis to plot points for my favorite spots
+            in the city for a do-it-yourself walking tour.
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-image" src="images/portfolio-5.png"
+          alt="generic image of photo gallery">
+          <div class="project-title">
+            Photo Gallery
+          </div>
+          <div class="project-text">
+            This project shows pictures from a recent trip to the viewer and
+            allows them to easily navigate through photos.
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="project-image" src="images/portfolio-4.png"
+          alt="generic image of calculator app">
+          <div class="project-title">
+            Calculator
+          </div>
+          <div class="project-text">
+            Someone can enter in the numbers they want, and press the big blue
+            button and get the result.
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="section-title">
+          CONTACT
+        </div>
+        <div class="contact-text">
+          If you're interested in chatting or want more information about what
+          I've been working on, I'd love to hear from you!
+          <ul class="contact-info">
+            <li>Phone  <a href="tel:1-111-555-1234">+1(111)555-1234</a></li>
+            <li>Email  <a href="mailto:email@yoursite.com">
+              email@yoursite.com</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul class="nav-list">
+        <li class="footer-name">Shea Nelson</li>
+        <li class="to-top"><a href="#navigation">BACK TO TOP</a></li>
+        <li class="footer-nav"><a href="index.html">Home</a></li>
+        <li class="footer-nav"><a href="portfolio.html">Portfolio</a></li>
+        <li class="footer-nav"><a href="contact.html">Contact</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
