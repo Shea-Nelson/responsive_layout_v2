@@ -145,3 +145,30 @@ footer {
     margin-bottom: 60px;
   }
 }
+
+@media screen and (min-width: 769px) {
+  .nav-items {
+    width: 60%;
+    margin: auto;
+  }
+
+  .nav-item {
+    float:left;
+  }
+
+  .hero {
+    width: 80%;
+    margin:auto;
+  }
+  .profile-image {
+    margin: 0px;
+    width: 40%;
+    float: right;
+  }
+
+  .hero-text {
+    margin: 0px;
+    width: 45%;
+    float: left;
+  }
+}
